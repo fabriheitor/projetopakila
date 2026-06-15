@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sorvetes Pakila — Varre-Sai, RJ</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ========== HEADER / NAV ========== -->
+  <header class="header">
+    <div class="container header__inner">
+
+      <!-- Logo em texto (substitua pela imagem real quando quiser) -->
+      <a href="#" class="logo">
+        <span class="logo__coracoes">❤️❤️❤️</span>
+        <span class="logo__nome">Pakila</span>
+      </a>
+
+      <!-- Nav desktop -->
+      <nav class="nav" aria-label="Menu principal">
+        <ul class="nav__list">
+          <li><a href="#sabores">Sabores</a></li>
+          <li><a href="#sobre">Nossa história</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+
+      <!-- Botão hambúrguer mobile -->
+      <button class="hamburger" id="hamburger" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <!-- Menu mobile -->
+    <nav class="mobile-nav" id="mobileNav" aria-hidden="true">
+      <ul>
+        <li><a href="#sabores" class="mobile-link">Sabores</a></li>
+        <li><a href="#sobre" class="mobile-link">Nossa história</a></li>
+        <li><a href="#contato" class="mobile-link">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero">
+    <div class="container hero__inner">
+      <div class="hero__text">
+        <p class="hero__tag">Varre-Sai • Rio de Janeiro</p>
+        <h1 class="hero__titulo">
+          A sorveteria dos <br />
+          <span class="hero__destaque">três corações!</span>
+        </h1>
+        <p class="hero__sub">
+          Sabores fresquinhos feitos com amor para toda a família.
+          Venha se refrescar na Pakila!
+        </p>
+        <div class="hero__btns">
+          <a href="#sabores" class="btn btn--primario">Ver sabores</a>
+          <a href="#contato" class="btn btn--secundario">Como chegar</a>
+        </div>
+      </div>
+
+      <div class="hero__deco" aria-hidden="true">
+        <img src="fotos/logo.jpeg" alt="Logo Sorvetes Pakila" class="hero__logo-img" />
+      </div>
+
+  </section>
+
+  <!-- ========== DIVISOR DE CORAÇÕES ========== -->
+  <div class="divisor" aria-hidden="true">
+    <span>❤️</span><span>🍦</span><span>❤️</span>
+  </div>
+
+  <!-- ========== SABORES ========== -->
+  <section class="sabores" id="sabores">
+  <div class="container">
+    <h2 class="section-titulo">Nossos Sabores</h2>
+    <p class="section-sub">Feitos fresquinhos todos os dias, com ingredientes selecionados</p>
+
+    <!-- SORVETES -->
+    <h3 class="subsecao-titulo">🍦 Sorvetes</h3>
+    <div class="sabores__grid">
+
+      <article class="card">
+        <div class="card__icone">🍓</div>
+        <h3 class="card__nome">Morango</h3>
+        <p class="card__desc">Morangos frescos e naturais, cremosos e cheios de sabor.</p>
+      </article>
+
+      <article class="card">
+        <div class="card__icone">🍫</div>
+        <h3 class="card__nome">Chocolate</h3>
+        <p class="card__desc">Intenso e aveludado, para os apaixonados por cacau.</p>
+      </article>
+
+      <article class="card">
+        <div class="card__icone">🍋</div>
+        <h3 class="card__nome">Limão</h3>
+        <p class="card__desc">Azedinho e refrescante, perfeito para os dias quentes.</p>
+      </article>
+
+      <article class="card">
+        <div class="card__icone">🌴</div>
+        <h3 class="card__nome">Coco</h3>
+        <p class="card__desc">Cremoso e suave, com pedacinhos de coco ralado.</p>
+      </article>
+
+    </div>
+
+    <!-- PICOLÉS -->
+    <h3 class="subsecao-titulo">🍡 Picolés</h3>
+    <div class="sabores__grid">
+
+      <article class="card">
+        <div class="card__icone">🍓</div>
+        <h3 class="card__nome">Morango</h3>
+        <p class="card__desc">Picolé de morango natural, gelado e refrescante.</p>
+        <span class="card__preco">R$ 2,00</span>
+      </article>
+
+      <article class="card">
+        <div class="card__icone">🍫</div>
+        <h3 class="card__nome">Chocolate</h3>
+        <p class="card__desc">Picolé de chocolate mais aclamado da região!</p>
+        <span class="card__preco">R$ 2,00</span>
+      </article>
+
+      <article class="card">
+        <div class="card__icone">🥥</div>
+        <h3 class="card__nome">Coco com Abacaxi</h3>
+        <p class="card__desc">Combinação tropical que refresca e surpreende.</p>
+        <span class="card__preco">R$ 2,00</span>
+      </article>
+
+      <article class="card">
+        <div class="card__icone">🍋</div>
+        <h3 class="card__nome">Limão</h3>
+        <p class="card__desc">Cítrico e gelado, perfeito para o calor.</p>
+        <span class="card__preco">R$ 2,00</span>
+      </article>
+
+    </div>
+
+    <p class="sabores__obs">
+     Também fazemos sabores sobre encomenda! Venha conferir ou nos chame no WhatsApp.
+    </p>
+  </div>
+</section>
+
+  <!-- ========== DIVISOR DE CORAÇÕES ========== -->
+  <div class="divisor" aria-hidden="true">
+    <span>❤️</span><span>🍦</span><span>❤️</span>
+  </div>
+
+  <!-- ========== SOBRE ========== -->
+  <section class="sobre" id="sobre">
+    <div class="container sobre__inner">
+
+      <div class="sobre__logo-wrap" aria-hidden="true">
+        <img src="fotos/logo.jpeg" alt="Logo Sorvetes Pakila" class="sobre__logo-img" />
+      </div>
+
+      <div class="sobre__texto">
+        <h2 class="section-titulo texto-esquerda">Nossa história</h2>
+        <p>
+          A Pakila nasceu de um sonho simples: oferecer sorvetes gostosos e acessíveis para todos os cidadãos de Varre-Sai e região.
+        </p>
+        <p>
+          Os três corações da nossa logo representam os três pilares que guiam tudo que fazemos: <strong>amor, qualidade e família</strong>. Os corações também representam os 3 filhos do fundador (José Geraldo Fabri) com sua esposa (Marlene Abib de Oliveira Fabri), os corações são Paula(PA), Cristiane - apelidada de kiki(KI), e Lauro(LA), respectivamente.
+        </p>
+        <p>
+          Somos o sorvete dos três corações — e o seu coração também faz parte disso! 💙
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========== CONTATO ========== -->
+  <section class="contato" id="contato">
+    <div class="container contato__inner">
+
+      <div class="contato__info">
+        <h2 class="section-titulo branco">Venha nos visitar</h2>
+        <ul class="contato__lista">
+          <li>
+            <span class="contato__icon">📍</span>
+            Rua Felicíssimo Faria Salgado — Varre-Sai, RJ
+          </li>
+          <li>
+            <span class="contato__icon">📱</span>
+            (22) 99719-5013 / (22) 99816-0949 
+          </li>
+          <li>
+            <span class="contato__icon">🕐</span>
+            Segunda a sábado: 9h – 18h
+          </li>
+          <li>
+            <span class="contato__icon">📸</span>
+            <a href="https://www.instagram.com/sorveteriapakila/" target="_blank" rel="noopener">
+              @sorveteriapakila
+            </a>
+          </li>
+        </ul>
+
+        <a
+          href="https://wa.me/5522998160949?text=Olá!%20Vi%20o%20site%20da%20Pakila%20e%20quero%20saber%20mais%20sobre%20os%20sabores!"
+          class="btn btn--whatsapp"
+          target="_blank"
+          rel="noopener"
+        >
+          💬 Chamar no WhatsApp
+        </a>
+      </div>
+
+      <div class="contato__mapa">
+        <!--
+          PARA USAR O MAPA REAL:
+          1. Acesse maps.google.com
+          2. Pesquise o endereço
+          3. Clique em "Compartilhar" > "Incorporar um mapa"
+          4. Cole o código <iframe> aqui no lugar deste bloco
+        -->
+        <div class="mapa-placeholder">
+          <span>🗺️</span>
+          <p>Rua Felicíssimo Faria Salgado</p>
+          <p>Varre-Sai — RJ</p>
+          <a
+            href="https://www.google.com/maps/search/Rua+Felicíssimo+Faria+Salgado,+Varre-Sai,+RJ"
+            target="_blank"
+            rel="noopener"
+            class="btn btn--mapa"
+          >
+            Abrir no Google Maps
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========== RODAPÉ ========== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__logo">❤️❤️❤️ Sorvetes Pakila</p>
+      <p class="footer__sub">O sorvete dos três corações — Varre-Sai, RJ</p>
+      <a href="https://www.instagram.com/sorveteriapakila/" target="_blank" rel="noopener" class="footer__insta">
+        📸 @sorveteriapakila
+      </a>
+      <p class="footer__copy">© 2025 Sorvetes Pakila. Feito com ❤️</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
