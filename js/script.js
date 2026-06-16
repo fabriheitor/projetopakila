@@ -2,7 +2,7 @@
 // SORVETES PAKILA — script.js
 // =============================================
 
-// ---------- MENU HAMBÚRGUER (mobile) ----------
+// ---------- MENU DE TRÊS LINHAS (mobile) ----------
 const hamburger = document.getElementById('hamburger');
 const mobileNav = document.getElementById('mobileNav');
 
@@ -45,7 +45,6 @@ window.addEventListener('scroll', () => {
 });
 
 // ---------- ANIMAÇÃO DE ENTRADA DOS CARDS ----------
-// Usa IntersectionObserver para animar os cards ao entrar na tela
 const observer = new IntersectionObserver(
   (entries) => {
     entries.forEach(entry => {
@@ -67,10 +66,3 @@ animados.forEach(el => {
   el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
   observer.observe(el);
 });
-
-// ---------- ANO DINÂMICO NO RODAPÉ ----------
-// (Opcional) Se quiser trocar o © 2025 pelo ano atual automaticamente:
-// const anoEl = document.querySelector('.footer__copy');
-// if (anoEl) {
-//   anoEl.textContent = anoEl.textContent.replace('2025', new Date().getFullYear());
-// }

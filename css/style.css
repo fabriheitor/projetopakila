@@ -764,3 +764,12 @@ ul {
   border-bottom: 3px solid var(--vermelho);
   display: inline-block;
 }
+
+.card__icone img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin: 0 auto;
+  display: block;
+}
